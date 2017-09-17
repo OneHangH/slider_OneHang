@@ -1,0 +1,81 @@
+/*该ul若引入了重置样式,可以省略*/
+ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#sliderBox
+{
+    width: 790px;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+}
+
+/*轮播内容盒子的宽=单张宽x数量*/
+#sliderBox .slideCon
+{
+    width: 4740px;
+    height: 340px;
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    top: 0px;
+
+    font-size: 14px;
+    font-family: "verdana, geneva, arial, helvetica, sans-serif";
+}
+
+#sliderBox .slideCon li
+{
+    float: left;
+}
+
+#sliderBox .slideCon img{
+    height: 340px;
+    width: 790px;
+}
+
+#sliderBox .slideNum
+{
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    bottom: 20px;
+}
+
+#sliderBox .slideNum li
+{
+    float: left;
+    cursor: pointer;
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.8);
+    color: #626262;
+}
+
+/*左右按钮*/
+.btn{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    /*top:145px;*/
+    background-color: black;
+    background-image:url(../images/arrowBG.png);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.leftBtn{
+    left:0;
+    background-position: -10px 4px;
+}
+
+.rightBtn{
+    right:0;
+    background-position: -54px 4px;
+}
