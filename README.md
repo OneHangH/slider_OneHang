@@ -1,4 +1,5 @@
 # slider_OneHang
+ <a>http://htmlpreview.github.com/?https://github.com/OneHangH/slider_OneHang/blob/master/index.html</a>
 <pre>
   参数配置说明(所有参数都有默认值):
     boxH:340,//盒子的高度  
